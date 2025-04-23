@@ -1,0 +1,350 @@
+body {
+overflow: hidden;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+height: 99vh;
+width: 100%;
+background-color: black;
+background-image: url(1.jpg);
+    
+}
+/*
+
+.inicio .inicio1{
+position: absolute;
+
+transition: all 20ms ease-in-out;
+-webkit-transition-duration: 0.5s;
+transition: all 10ms ease-in-out;
+transform: translate(-0%,-0%) scale(1);
+    
+}
+*/
+
+
+
+.ban{
+position: absolute;
+left: 20%;
+top: -10px;
+width: 30%;
+height: 30%;
+ }
+
+
+
+
+.baner{
+ width: 60vw;
+ height: 60vh;
+}
+
+
+
+
+
+
+
+
+.inicio{
+position: absolute;
+left: 0px;
+right: 0px;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+background-image: url(5.jpg);
+background-color: black;
+
+}
+
+.gofamilia{
+position: relative;
+text-transform: uppercase;
+font-size: 4vw;
+box-shadow: 5px 3px blue;
+border-radius: 54px;
+top:  52%;
+left:  54%;
+width: 30%;
+height: 33%;
+}
+
+
+.botinicio{
+position: relative;
+text-transform: uppercase;
+font-size: 4vw;
+box-shadow: 5px 3px blue;
+border-radius: 54px;
+top:  12%;
+left:  30%;
+width: 30%;
+height: 33%;
+}
+
+
+
+
+
+.gofamilia:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.1s;
+    right: 0;
+    background: linear-gradient(180deg,transparent,#a945c7);
+ }
+
+
+
+.DE{
+position: relative;
+left: 35%;
+top: 50vh;
+right: 0px;
+height: 30vh;
+width: 45%; 
+transition-delay: 0.1s;
+right: 0;
+ 
+}
+
+ 
+
+INPUT{
+position: relative;
+display: block;
+left: 20%;
+height: 10%;
+width: 60%;
+margin-top: 15%;
+    top: -10%;
+    cursor:pointer;
+
+}
+
+
+.login{
+    position: absolute;
+left: 0px;
+right: 0px;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+width: 100%;
+background-image: url(5.jpg);
+background-color: black;
+
+}
+
+
+
+.login1{
+  position: relative;
+left: -20%;
+top: 50%;
+right: 0px;
+height: 30%;
+width: 40%;
+
+   
+}
+
+
+.inicio1{
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(2.jpg);
+margin: 0px;
+padding: 0px;
+position: absolute;
+
+transform: translate(0%, 0%);
+height: 100%;
+width: 100%;
+z-index: 100;
+    background-color: black;
+
+}
+
+
+
+.go{
+position: relative;
+text-transform: uppercase;
+background-color: ;
+font-size: 4vh;
+box-shadow: 10px 5px currentColor;
+border-radius: 554px;
+top:  60%;
+left:  45%;
+width: 15%;
+height: 10%; 
+font-weight:bolder;
+
+} 
+
+
+.Acceder{
+position: relative;
+text-transform: uppercase;
+background-color: ;
+font-size: 4vw;
+box-shadow: 10px 5px currentColor;
+border-radius: 554px;
+left:  30%;
+width: 40%;
+height: 23%; 
+
+
+} 
+
+
+
+
+
+.go:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.1s;
+    right: 0;
+    background: linear-gradient(180deg,transparent,#a945c7);
+ }
+
+
+
+
+
+
+
+     Fading animation   
+        .fade {  
+            -webkit-animation-name: fade;  
+            -webkit-animation-duration: 11s;  
+            animation-name: fade;  
+                animation: fade 11s;
+
+transition: all 20ms ease-in-out;
+-webkit-transition-duration: 10.5s;
+    transform:translate(0,0) scale(5);
+         }  
+        @-webkit-keyframes fade {  
+            from {  
+                opacity: 0;
+                    ; 
+                
+            }  
+            to {  
+                opacity: 2;
+            }  
+        }  
+  
+        @keyframes fade {  
+            from {  
+                opacity: 0;
+                    
+            }  
+            to {  
+                opacity: 2;
+                
+            }  
+        } 
+
+
+
+
+    
+
+
+
+.fullvid {
+position: absolute;
+top: 0%;
+left: 0px;
+right: 0px;
+bottom: 0px;
+width: 100%;
+height: 100%; 
+
+}
+.popup .fullvid {
+position:fixed;
+transform:scale(0);
+z-index: 20000;
+text-align:center;
+}
+.vol {
+cursor:pointer;
+position:relative;
+margin-left:  -45%;
+text-decoration: none;
+color:red;
+font-size: 8vw;
+top: 5%;
+}
+
+
+
+.vol2 {
+cursor:pointer;
+position:relative;
+margin-left:  15%;
+text-decoration: none;
+color:red;
+font-size: 8vw;
+top: 25%;
+}
+
+
+
+
+
+
+
+.popup.active .fullvid {
+transition: all 0.1ms ease-in-out;
+transform: translate(-0%,-0%) scale(1);
+   
+}
+
+    
+
+
+@media only screen and (orientation: portrait){
+	
+body { 
+display: none;
+	}
+
+html { 
+background-image: url(inicio%20artel.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    top: 0%;
+left:  0;
+margin: 0;
+right: 0; 
+bottom: 0;
+background-color: black;
+	}
+
+
+.g{
+background-color: red;
+height: 2vw;
+} 
+ 
+
+}
+
+
+
+  
