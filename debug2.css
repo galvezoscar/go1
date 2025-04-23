@@ -1,0 +1,489 @@
+
+html{
+position: absolute;
+overflow: hidden;
+top: 0%;
+left:  0;
+margin: 0;
+right: 0; 
+bottom: 0;
+background-color: black;
+    
+
+}
+
+
+
+.powr-hit-counter{
+position: absolute;
+right: 30%;
+top: 6%;
+width: 10%;
+height: 3%; 
+background: blue;
+box-shadow: 5px  5px 3px 7px blue;
+border-radius:   1px 54px 1px 55px;
+}
+
+
+
+.g{
+position: absolute;
+text-transform: uppercase;
+color: wheat;
+cursor: pointer;
+font-size: 1.2w;
+top:  0%;
+left:  0%;
+width: 100%;
+height: 39px;
+background-color: transparent;
+text-align: center;
+box-shadow: 0px 0px 5px #222;
+
+} 
+ 
+
+
+
+
+
+video{
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit:contain;
+left: 0px;
+right: 0px;
+bottom: 0px;
+display: inherit;
+background: black;
+object-fit: fill;
+
+}
+
+iframe{
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit:contain;
+left: 0px;
+right: 0px;
+bottom: 0px;
+display: inherit;
+background: black;
+object-fit: fill;
+
+}
+
+
+
+.volver{
+position: relative;
+width: 10%;
+margin-left: 90%;
+height: 15%;
+    
+} 
+
+.volver1{
+position: absolute;
+top: 17%;
+right: 9%;
+} 
+
+.volver2{
+position: absolute;
+right: 22%;
+top: 17%;
+}     
+
+
+ 
+
+.volver11{
+width: 10vw;
+height: 2.5vw;
+box-shadow: 1px 1px 20px orangered;
+display:inline-block;
+border-radius: 11px;
+text-align-last: center;
+ background-color: orangered;
+font-size:  4vh;
+
+}     
+
+
+
+
+
+
+
+
+.container{
+position: absolute;
+background: linear-gradient(to left, rgba(10, 15, 10, 00.9) 30%, transparent 60%);
+width: 100%;
+top: 0;
+bottom: 0;
+} 
+
+.icon44 {
+font-size: 3.5vh;
+padding: 2% 1% 1% 1%;
+box-shadow: 1px 1px 20px orangered;
+margin: 1.5vw;
+display:inline-block;
+transition: all .15s;
+width: 9vw;
+border-radius: 11px;
+text-align-last: center;
+}
+
+.icon44:hover {
+padding: 3% 1% 3% 1%;
+font-size: 3vw;
+border-radius: 2px;
+background-color: orangered;
+box-shadow: 1px 1px 20px blue;
+    text-align-last: center;
+border-radius: 11px;
+
+}
+
+.inicio{
+position: absolute;
+cursor: pointer;
+right: 1%;
+width: 40%;
+top: 26%;
+right: 1%; 
+}
+
+.logopeli, fade3{
+position: absolute;
+top: -4%;
+left: 5%;
+width: 51%;
+height: 65%;  
+ transform: rotate(3.2deg);
+   
+}
+
+
+.genero{
+position: absolute;
+left:    60vw;
+width: 42%;
+  top:  30VH;
+    font-size:  3vh;
+
+     
+  }
+.link{
+text-decoration: none;
+ color: azure;
+ cursor: pointer;
+ border-radius: 5px;
+padding: 1% 1%;
+box-shadow: 7px 5px dimgray;
+  background-color: red;
+margin-left: 1vh;
+} 
+
+
+
+
+.description{
+position: absolute;
+color: azure;
+font-size: 3.4vh;
+margin-top:  2%;
+width: 44%;
+left: 55%;
+top: 34%;	
+
+}
+
+.año{
+position: absolute;
+cursor: pointer;
+font-size:  3vh;
+border-radius: 5px;
+padding: 1% 1%;
+box-shadow: 7px 5px dimgray;
+right: 41%;
+top: 21%;	
+background-color: red;
+}
+.logo{
+position: absolute;
+left: 51%;
+top: 3%;
+width: 17%;
+height: 14%; 
+    
+}
+
+
+.dad{
+position: absolute;
+left: 55%;
+top: 13%;
+ height: 3%; 
+ color: red;
+ padding: 1% 1%;
+font-size:  2.5vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.go{
+position: absolute;
+text-transform: uppercase;
+color: black;
+background: linear-gradient(180deg,transparent,#a945c7);cursor: pointer;
+font-size: 4vw;
+box-shadow: 5px  5px 3px 3px BLACK;
+border-radius:   1px 54px 1px 55px;
+top:  59%;
+left:  43%;
+width: 10%;
+height: 10%; 
+} 
+ 
+
+
+
+.go:hover{
+    box-shadow: 0 0 40px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.1s;
+    right: 0;
+    background: linear-gradient(180deg,transparent,#a945c7);
+ }
+
+
+
+
+.play{
+position: absolute;
+cursor: pointer;
+width: 8%;
+height: 3.5vw; 
+background-color: transparent;
+padding: 0;
+margin: 0;
+bottom: 0;
+right:     2.5%;     
+top: 62%;
+bottom: 0;
+box-shadow: 3px 5px red;
+font-size:  3vh;
+border-radius: 54px;
+background-color: black;
+} 
+
+
+
+
+.pause{
+position: absolute;
+background-color: transparent;
+color: aliceblue;
+width: 100%;
+height: 100%; 
+font-size: 4vh;
+display: none;
+
+} 
+
+.iniciocarga{ 
+position: absolute;
+height: 100%;
+width: 100%;
+cursor: pointer;	
+
+}
+
+
+#panel {
+  display: inherit;
+     animation-duration: 18s;
+}
+
+
+        /* Fading animation */  
+        .fade {  
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 18s;  
+            animation-name: fade;  
+            animation-duration: 11s;
+            background-color: black;
+        }  
+        @-webkit-keyframes fade {  
+            from {  
+                opacity: 0;  
+                animation-duration: 8s;
+ 		
+            }  
+            to {  
+                opacity: 1;
+               animation-duration: 8s;
+
+            }  
+        }  
+  
+       
+ 
+
+
+      
+
+
+/* Fading animation */  
+        .fade2 {  
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1s;  
+            animation-name: fade2;  
+            animation-duration: 3s;
+            
+        } 
+  
+        @keyframes fade2 {  
+            from {  
+                
+                opacity: 0;  
+                animation-duration: 35s;
+               top: 0%; 
+            }  
+            to {  
+                opacity: 2;
+                animation-duration: 5s;
+                
+            }  
+        }  
+/* Fading animation */  
+        .fade3 {  
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 2s;  
+            animation-name: fade3;  
+            animation-duration: 2s;
+            
+        } 
+  
+        @keyframes fade3 {  
+            from {  
+                
+                opacity: 0;  
+                animation-duration: 5s;
+           transform:translate(0%,0%) scale(1);
+margin-top:  40%;
+
+            }  
+            to {  
+                opacity: 1;
+              
+                
+            }  
+        }  
+ 
+
+
+
+
+
+
+
+
+
+
+@media only screen and (orientation:landscape) {
+.contenido { display: block }
+    
+.icon1 {
+
+}
+    
+}
+	
+
+
+@media only screen and (orientation: portrait){
+	
+body { 
+display: none;
+	}
+
+html { 
+background-image: url(inicio%20artel.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    top: 0%;
+left:  0;
+margin: 0;
+right: 0; 
+bottom: 0;
+background-color: black;
+	}
+
+
+}
+
+
+
+    
+.fullvid {
+position: absolute;
+width: 100%;
+height: 100%; 
+}
+.popup .fullvid {
+position:fixed;
+transform:scale(0);
+z-index:2;
+text-align:center;
+}
+.popup.active .fullvid {
+transition:all 20ms ease-in-out;
+transform:translate(-0%,-0%) scale(01);
+background: black;
+}
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
