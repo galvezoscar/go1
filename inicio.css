@@ -26,25 +26,17 @@ transform: translate(-0%,-0%) scale(1);
 
 .ban{
 position: absolute;
-left: 20%;
-top: -10px;
-width: 10%;
-height: 10%;
+left: 30%;
+top: 20px;
+width: 30%;
+height: 30%;
  }
-
-
 
 
 .baner{
  width: 40vw;
  height: 40vh;
 }
-
-
-
-
-
-
 
 
 .inicio{
@@ -65,12 +57,13 @@ background-color: black;
 position: relative;
 text-transform: uppercase;
 font-size: 4vw;
-box-shadow: 5px 3px blue;
-border-radius: 54px;
-top:  52%;
-left:  54%;
+box-shadow: -4px 5px 1px 5px blue;
+border-radius:    115px 1px 110px 14px;
+top:  -10%;
+left:  14%;
 width: 30%;
-height: 33%;
+transition-delay: 0.1s;
+
 }
 
 
@@ -78,15 +71,30 @@ height: 33%;
 position: relative;
 text-transform: uppercase;
 font-size: 4vw;
-box-shadow: 5px 3px blue;
-border-radius: 54px;
-top:  12%;
-left:  30%;
-width: 30%;
-height: 33%;
+box-shadow: 4px 5px 5px 6px red;
+border-radius:   5px 54px 5px 55px;
+ top:   112%;
+left: 90%;
+right: 0px;
+width: 45%; 
+transition-delay: 0.1s;
+    height:    5vw;     
+
 }
 
 
+.login1{
+position: relative;
+left: 9%;
+top: 31%;
+right: 0px;
+width: 30%;
+height: 10%;
+
+    
+}
+
+ 
 
 
 
@@ -100,19 +108,6 @@ height: 33%;
 
 
 
-.DE{
-position: relative;
-left: 35%;
-top: 50vh;
-right: 0px;
-height: 30vh;
-width: 45%; 
-transition-delay: 0.1s;
-right: 0;
- 
-}
-
- 
 
 INPUT{
 position: relative;
@@ -121,14 +116,14 @@ left: 20%;
 height: 10%;
 width: 60%;
 margin-top: 15%;
-    top: -10%;
-    cursor:pointer;
+top: -10%;
+cursor:pointer;
 
 }
 
 
 .login{
-    position: absolute;
+position: absolute;
 left: 0px;
 right: 0px;
 background-attachment: fixed;
@@ -138,21 +133,9 @@ height: 100%;
 width: 100%;
 background-image: url(5.jpg);
 background-color: black;
-
+    
 }
 
-
-
-.login1{
-  position: relative;
-left: -20%;
-top: 50%;
-right: 0px;
-height: 30%;
-width: 40%;
-
-   
-}
 
 
 .inicio1{
@@ -169,8 +152,7 @@ transform: translate(0%, 0%);
 height: 100%;
 width: 100%;
 z-index: 100;
-    background-color: black;
-
+background-color: black;
 }
 
 
@@ -178,17 +160,20 @@ z-index: 100;
 .go{
 position: relative;
 text-transform: uppercase;
-background-color: ;
 font-size: 4vh;
-box-shadow: 10px 5px currentColor;
-border-radius: 554px;
-top:  60%;
-left:  45%;
+box-shadow:  5px 5px 3px 5px red;
+border-radius: 5px 54px ;
+top:  55%;
 width: 15%;
 height: 10%; 
 font-weight:bolder;
-
+margin-left: 2.3%;
+color: red;
+text-align: center;
 } 
+
+
+
 
 
 .Acceder{
@@ -198,11 +183,9 @@ background-color: ;
 font-size: 4vw;
 box-shadow: 10px 5px currentColor;
 border-radius: 554px;
-left:  30%;
 width: 40%;
 height: 23%; 
-
-
+    
 } 
 
 
@@ -279,10 +262,16 @@ transform:scale(0);
 z-index: 20000;
 text-align:center;
 }
+
+
+
+
+
+
 .vol {
 cursor:pointer;
 position:relative;
-margin-left:  -45%;
+margin-left:  1-0%;
 text-decoration: none;
 color:red;
 font-size: 8vw;
@@ -294,15 +283,38 @@ top: 5%;
 .vol2 {
 cursor:pointer;
 position:relative;
-margin-left:  15%;
+margin-right:   55%;
 text-decoration: none;
-color:red;
+
 font-size: 8vw;
-top: 25%;
+top: 2%;
 }
 
+.DE{
+position: relative;
+left: 20%;
+top: 50vh;
+right: 0px;
+height: 30vh;
+width: 45%; 
+transition-delay: 0.1s;
+right: 0;
+ 
+}
+
+ 
+
+.botinicio:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.1s;
+    right: 0;
+    background: linear-gradient( 180deg,transparent,#a945c7);
+ }
 
 
+
+  
 
 
 
@@ -310,7 +322,8 @@ top: 25%;
 .popup.active .fullvid {
 transition: all 0.1ms ease-in-out;
 transform: translate(-0%,-0%) scale(1);
-   
+transition-delay: 0.2s;
+
 }
 
     
